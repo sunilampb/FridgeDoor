@@ -1,0 +1,25 @@
+
+
+
+<table>
+    <tr>
+        <th>Title</th>
+        <th>Author</th>
+        <th>When</th>
+    </tr>
+    
+{{#each note}}
+<tr><td>
+    <a href="/note/{{_id}}")>{{title}}</a>
+    </td>
+    
+    <td>
+    {{author}}
+    </td>
+    
+    <td>
+    {{when}}
+    </td>
+    </tr>
+    {{/each}}
+</table>

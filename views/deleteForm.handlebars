@@ -1,0 +1,36 @@
+
+
+
+<form action="/Delete" method="post">
+<table>
+    <tr>
+        <th></th>
+        <th>Title</th>
+        <th>Author</th>
+        <th>When</th>
+    </tr>
+    
+{{#each note}}
+<tr>
+    <td>
+    <input type="checkbox" name="del" value={{_id}}>
+    </td>
+    
+    <td>
+    <a href="/note/{{_id}}")>{{title}}</a>
+    </td>
+    
+    <td>
+    {{author}}
+    </td>
+    
+    <td>
+    {{when}}
+    </td>
+    </tr>
+    {{/each}}
+</table>
+<input type=submit value="Delete selected">
+</form>
+
+

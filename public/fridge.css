@@ -1,0 +1,59 @@
+body{
+    margin-top: 5%;
+margin-right: 20%;
+    font-size: 1.5em;
+    margin-left: 20%;
+    
+}
+
+a{
+    padding-right: 16px;
+    
+    font-size: 0.8em;
+}
+
+
+
+th, td {
+    padding: 15px;
+}
+
+th {
+    font-size: 1.5em;
+    font-weight: bold;
+    
+    
+}
+
+
+
+
+.label{
+    text-align: right;
+display: inline-block;
+    width:15%;
+    padding-right:2px;
+    padding-left: 30px;
+    
+}
+
+.input input{
+    width: 30%;
+}
+
+.addForm {
+    border: 1.5px solid blue;
+    
+}
+
+
+
+.submit{
+    
+    text-align: center;
+}
+
+.txt_box{
+    overflow: auto;
+    padding-left: 10%;
+}
